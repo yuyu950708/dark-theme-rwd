@@ -3,10 +3,14 @@
 your can init this project
 
 ```bash
-yarn create next-app my-app --example https://github.com/yuyu950708/dark-theme-rwd#scss-mui-init
+npx degit github:yuyu950708/dark-theme-rwd#scss-mui-init my-app
 ```
 
+- next
+- mui ui
+- sass/scss
 - prettier
+- eslint
 
 ## Getting Started
 
