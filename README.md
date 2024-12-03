@@ -3,7 +3,7 @@
 your can init this project
 
 ```bash
-npx create-next-app my-app --example https://github.com/yuyu950708/dark-theme-rwd#scss-mui-init
+npx degit github:yuyu950708/dark-theme-rwd#npm-scss-mui-init my-app
 ```
 
 - prettier
@@ -12,10 +12,10 @@ npx create-next-app my-app --example https://github.com/yuyu950708/dark-theme-rw
 
 ### Install
 ```bash
-yarn
+npm i
 ```
 
 ### Start
 ```bash
-yarn dev
+npm run dev
 ```
