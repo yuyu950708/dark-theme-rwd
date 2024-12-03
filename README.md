@@ -6,7 +6,12 @@ your can init this project
 npx degit github:yuyu950708/dark-theme-rwd#npm-scss-mui-init my-app
 ```
 
+- next
+- mui ui
+- sass/scss
+- react-icon
 - prettier
+- eslint
 
 ## Getting Started
 
