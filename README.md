@@ -3,7 +3,7 @@
 your can init this project
 
 ```bash
-npx degit github:yuyu950708/dark-theme-rwd#scss-mui-init my-app
+npx degit github:yuyu950708/dark-theme-rwd#yarn-scss-mui-init my-app
 ```
 
 - next
