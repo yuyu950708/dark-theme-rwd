@@ -8,6 +8,7 @@ npx degit github:yuyu950708/dark-theme-rwd#yarn-scss-mui-init my-app
 
 - next
 - mui ui
+- react-icons
 - sass/scss
 - prettier
 - eslint

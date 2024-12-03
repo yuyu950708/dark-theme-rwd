@@ -1,5 +1,17 @@
 @import "./base.scss";
 
-.abc{
-    background-color: $primary-color;
+.title{
+    // background-color: $primary-color;
+    color:$primary-color;
+    font-weight: 900;
+    font-size:32px;
+    margin-bottom: 20px;
+}
+
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
 }
