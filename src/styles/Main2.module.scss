@@ -1,0 +1,49 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: rgb(199, 198, 198);
+    z-index: 1;
+    .sec1{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        .sec1Title{
+            margin: 10px 40px;
+
+            .bigTitle{
+                font-size: 64px;
+                color: black;
+            }
+
+            .secTitle{
+                font-size: 48px;
+                color: #f44336  ;
+            }
+        }
+        .sec1Text{
+            margin: 20px;
+            line-height: 1.5;
+            .text{
+                font-size: 16px;
+                margin-left: 20px;
+                margin-right: 50px;
+            }
+            .text1{
+                font-size: 18px;
+            }
+        }
+        .downloadBtn{
+            border: 0;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    }
+
+    .sec2{
+        margin: 20px 50px 20px 100px;
+        .img{
+            filter: grayscale(75%)
+        }
+    }
+}
