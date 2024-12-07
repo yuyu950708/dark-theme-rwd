@@ -2,6 +2,7 @@ import { FaAndroid, FaApple, FaWindows } from 'react-icons/fa6'
 import style from '@/styles/Navbar.module.scss'
 import { useState } from 'react'
 import { TbXboxX } from 'react-icons/tb'
+import Image from 'next/image'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState<boolean>(false)
@@ -9,7 +10,7 @@ export default function Navbar() {
     <>
       <nav className={style.nav}>
         <section>
-          <img src="https://www.w3schools.com/w3images/app2.jpg" alt="pic" className={style.img} />
+          <Image src="https://www.w3schools.com/w3images/app2.jpg" alt="pic" width={1600} height={900} className={style.img} />
         </section>
         <section className={style.view}>
           <div>

@@ -1,320 +1,367 @@
-@import "../styles/base//minxin";
+@import '../styles/base//minxin';
 
 .nav {
-    position: relative;
+  position: relative;
+    .img{
+    height: 100%;
+    width: 100%;
+    }
+  .view:hover {
+    opacity: 80%;
+    background-color: #006;
+  }
 
-    .view:hover {
-        opacity: 80%;
-        background-color: #006;
+  .view {
+    position: absolute;
+    bottom: 40%;
+    left: 2%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 24px;
+    height: 200px;
+    width: 500px;
+    padding: 20px;
+    line-height: 2;
+    background-color: #006;
+    opacity: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .hr {
+      width: 99%;
+      color: gray;
     }
 
-    .view {
-        position: absolute;
-        bottom: 40%;
-        left: 2%;
-        border-radius: 20px;
-        display: flex;
-        flex-direction: column;
-        padding: 12px 24px;
-        height: 200px;
-        width: 500px;
-        padding: 20px;
-        line-height: 2;
-        background-color: #006;
-        opacity: 60%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        .hr {
-            width: 99%;
-            color: gray;
-        }
-
-        .viewTitle {
-            font-size: 36px;
-            color: #f44336;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .text {
-            color: white;
-            font-size: 20px;
-            line-height: 1.2;
-            display: flex;
-            justify-content: center;
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .btn {
-            border: 0;
-            // width: 90%;
-            padding: 10px 0px;
-            width: 350px;
-            font-size: 15px;
-            margin-top: 20px;
-            border-radius: 5px;
-            background-color: #f44336;
-            color: white;
-        }
-
-        .btn:hover {
-            background-color: rgb(185, 185, 185);
-            color: #000;
-        }
+    .viewTitle {
+      font-size: 36px;
+      color: #f44336;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
-    .TakeTourView {
-        background-color: #006;
-        height: 50px;
-        width: 150px;
-        position: absolute;
-        bottom: 47.5%;
-        right: 1%;
-        border-radius: 10px;
-
-        .TakeTour {
-            height: 100%;
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-        }
+    .text {
+      color: white;
+      font-size: 20px;
+      line-height: 1.2;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin-top: 20px;
     }
+
+    .btn {
+      border: 0;
+      // width: 90%;
+      padding: 10px 0px;
+      width: 350px;
+      font-size: 15px;
+      margin-top: 20px;
+      border-radius: 5px;
+      background-color: #f44336;
+      color: white;
+    }
+
+    .btn:hover {
+      background-color: rgb(185, 185, 185);
+      color: #000;
+    }
+  }
+
+  .TakeTourView {
+    background-color: #006;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    bottom: 47.5%;
+    right: 1%;
+    border-radius: 10px;
+
+    .TakeTour {
+      height: 100%;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 }
 
 .TakeTourView:hover {
-    background-color: white;
+  background-color: white;
 
-    .TakeTour {
-        color: black;
-    }
+  .TakeTour {
+    color: black;
+  }
 }
 
 .popo {
-    z-index: 1;
-    border-radius: 15px;
-    position: absolute;
-    bottom: 45%;
-    width: 70%;
-    height: 35%;
-    left: 10%;
-    background-color: white;
-    padding: 0 50px;
+  z-index: 1;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 45%;
+  width: 70%;
+  height: 40vh;
+  left: 15%;
+  background-color: white;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  .sec {
     display: flex;
-    align-items: center;
-    justify-content: start;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    position: relative;
 
-    .sec {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        position: relative;
-
-        .title {
-            font-size: 40px;
-            margin: 5px 0;
-        }
-
-        .text {
-            font-size: 20px;
-            margin: 5px 0;
-        }
-
-        .input {
-            margin: 5px 0;
-            width: 95%;
-            font-size: 15px;
-            padding: 10px;
-        }
-
-        .btn {
-            border: 0;
-            background-color: #f44336;
-            color: #fff;
-            margin: 5px 0;
-            width: 95%;
-            font-size: 15px;
-            padding: 10px;
-        }
-
-        .btn:hover {
-            background-color: rgb(185, 185, 185);
-            color: #000;
-        }
-
-        .x {
-            height: 30px;
-            width: 30px;
-            background-color: transparent;
-            font-size: 50px;
-            border: 0;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: absolute;
-            top: -10px;
-            right: -10px;
-        }
+    .title {
+      font-size: 30px;
+      margin: 5px 0;
     }
+
+    .text {
+      font-size: 20px;
+      margin: 5px 0;
+    }
+
+    .input {
+      margin: 5px 0;
+      width: 95%;
+      font-size: 15px;
+      padding: 10px;
+    }
+
+    .btn {
+      border: 0;
+      background-color: #f44336;
+      color: #fff;
+      margin: 5px 0;
+      width: 95%;
+      font-size: 15px;
+      padding: 10px;
+    }
+
+    .btn:hover {
+      background-color: rgb(185, 185, 185);
+      color: #000;
+    }
+
+    .x {
+      height: 20px;
+      width: 20px;
+      background-color: transparent;
+      font-size: 50px;
+      border: 0;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: -10px;
+      right: -20px;
+    }
+  }
 }
 
 @include X-Large {
-    .img{
-        width: 100%;
-    }
+  .img {
+    width: 100%;
+  }
 }
 
 @include Large {
-    .img{
-        width: 100%;
-    }
+  .img {
+    width: 100%;
+  }
 }
 
 @include Medium {
-    .img{
-        width: 100%;
+  .img {
+    height: 100%;
+    width: 100%;
+  }
+  .nav {
+    .view:hover {
+      // display: none;
+      background-color: transparent;
     }
-    .nav {
-        .view:hover {
-            // display: none;
-            background-color: transparent;
-        }
 
-        .view {
-            background-color: transparent;
-            top: 0;
-            margin-top: -60px;
-            width: 100%;
+    .view {
+      background-color: transparent;
+      top: 0;
+      margin-top: -60px;
+      width: 100%;
 
-            // display: none;
-            .hr {
-                display: none;
+      // display: none;
+      .hr {
+        display: none;
+      }
+
+      .viewTitle {
+        display: none;
+      }
+
+      .text {
+        display: none;
+      }
+
+      .btn {
+        top: 10px;
+        width: 100vw;
+        margin: 0;
+      }
+
+      .btn:hover {
+        background-color: rgb(185, 185, 185);
+        color: #000;
+      }
+    }
+    .TakeTourView {
+      width: 100%;
+      bottom: 5%;
+    }
+    .popo{
+        width: 70%;
+        bottom: 20%;
+        .sec{
+            .x{
+                
             }
-
-            .viewTitle {
-                display: none;
-            }
-
-            .text {
-                display: none;
-            }
-
-            .btn {
-                top: 10px;
-                width: 100vw;
-                margin: 0;
-            }
-
-            .btn:hover {
-                background-color: rgb(185, 185, 185);
-                color: #000;
-            }
-        }
-        .TakeTourView{
-            width: 100%;
-            bottom: 5%;
         }
     }
+  }
 }
 
 @include Small {
-    .img{
-        width: 100%;
+  .img {
+    height: 100%;
+    width: 100%;
+  }
+  .nav {
+    .view:hover {
+      background-color: transparent;
     }
-    .nav {
-        .view:hover {
-            background-color: transparent;
-        }
 
-        .view {
-            background-color: transparent;
+    .view {
+      background-color: transparent;
+      top: 0;
+      margin-top: -60px;
+      width: 100%;
+
+      // display: none;
+      .hr {
+        display: none;
+      }
+
+      .viewTitle {
+        display: none;
+      }
+
+      .text {
+        display: none;
+      }
+
+      .btn {
+        top: 10px;
+        width: 100vw;
+        margin: 0;
+      }
+
+      .btn:hover {
+        background-color: rgb(185, 185, 185);
+        color: #000;
+      }
+    }
+
+    .TakeTourView {
+      width: 100%;
+      bottom: 5%;
+    }
+  }
+  .popo{
+    width: 50%;
+    height: 70%;
+    bottom: 20%;
+    .sec{
+        .title{
+            font-size: 16px;
+        }
+        .text{
+            font-size: 8px;
+        }
+        .x{
             top: 0;
-            margin-top: -60px;
-            width: 100%;
-
-            // display: none;
-            .hr {
-                display: none;
-            }
-
-            .viewTitle {
-                display: none;
-            }
-
-            .text {
-                display: none;
-            }
-
-            .btn {
-                top: 10px;
-                width: 100vw;
-                margin: 0;
-            }
-
-            .btn:hover {
-                background-color: rgb(185, 185, 185);
-                color: #000;
-            }
-
-        }
-        
-        .TakeTourView{
-            width: 100%;
-            bottom: 5%;
+            right: -30px;
         }
     }
 }
+}
 
 @include X-Small {
-    .img{
-        width: 100%;
+  .img {
+    width: 100%;
+    height: 100%;
+  }
+  .nav {
+    .view:hover {
+      background-color: transparent;
     }
-    .nav {
-        .view:hover {
-            background-color: transparent;
-        }
 
-        .view {
-            background-color: transparent;
+    .view {
+      background-color: transparent;
+      top: 0;
+      margin-top: -60px;
+      width: 100%;
+
+      // display: none;
+      .hr {
+        display: none;
+      }
+
+      .viewTitle {
+        display: none;
+      }
+
+      .text {
+        display: none;
+      }
+
+      .btn {
+        top: 10px;
+        width: 100vw;
+        margin: 0;
+        padding: 10px;
+      }
+
+      .btn:hover {
+        background-color: rgb(185, 185, 185);
+        color: #000;
+      }
+    }
+    .TakeTourView {
+      width: 100%;
+      bottom: 5%;
+    }
+  }
+  .popo{
+    width: 50%;
+    height: 70%;
+    bottom: 20%;
+    .sec{
+        .title{
+            font-size: 16px;
+        }
+        .text{
+            font-size: 8px;
+        }
+        .x{
             top: 0;
-            margin-top: -60px;
-            width: 100%;
-
-            // display: none;
-            .hr {
-                display: none;
-            }
-
-            .viewTitle {
-                display: none;
-            }
-
-            .text {
-                display: none;
-            }
-
-            .btn {
-                top: 10px;
-                width: 100vw;
-                margin: 0;
-                padding: 10px;
-            }
-
-            .btn:hover {
-                background-color: rgb(185, 185, 185);
-                color: #000;
-            }
-        }
-        .TakeTourView{
-            width: 100%;
-            bottom: 5%;
+            right: -30px;
         }
     }
+}
 }

@@ -5,6 +5,8 @@
   grid-template-columns: 1fr 3fr;
   background-color: rgb(199, 198, 198);
   z-index: 1;
+  height: 100%;
+  padding-bottom: 60px;
   .sec1 {
     display: flex;
     flex-direction: column;
@@ -12,7 +14,6 @@
     justify-content: center;
     .sec1Title {
       margin: 10px 40px;
-
       .bigTitle {
         font-size: 64px;
         color: black;
@@ -46,6 +47,8 @@
     margin: 20px 50px 20px 100px;
     .img {
       filter: grayscale(80%);
+      margin: 20px 0;
+      height: 100%;
     }
   }
 }

@@ -1,5 +1,6 @@
 import style from '@/styles/Main1.module.scss'
 import { FaDownload, FaAndroid, FaApple, FaWindows } from 'react-icons/fa6'
+import Image from 'next/image'
 
 export default function Main1() {
   return (
@@ -33,7 +34,7 @@ export default function Main1() {
           </div>
         </section>
         <section className={style.sec2}>
-          <img src="https://www.w3schools.com/w3images/img_app.jpg" alt="" />
+          <Image src="https://www.w3schools.com/w3images/img_app.jpg" width={300} height={200} alt="" className={style.img}/>
         </section>
       </main>
     </>
