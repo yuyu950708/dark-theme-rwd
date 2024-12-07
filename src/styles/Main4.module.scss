@@ -1,7 +1,8 @@
+@import "../styles/base//minxin";
+
 .main{
     color:black;
     background-color: white;
-    height: 900px;
     display: flex;
     flex-direction: column;
     .title{
@@ -82,5 +83,26 @@
             background-color: #cfcccc;
             color: black;
         }
+    }
+}
+
+@include X-Large{
+}
+@include Large {
+}
+@include Medium {
+}
+@include Small {
+    .sec{
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+}
+@include X-Small{
+    .sec{
+        display: flex;
+        flex-direction: column;
     }
 }

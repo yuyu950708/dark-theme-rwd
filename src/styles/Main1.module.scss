@@ -1,3 +1,5 @@
+@import "../styles/base//minxin";
+
 .main{
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -55,5 +57,36 @@
 
     .sec2{
         margin: 20px 50px 20px 100px;
+    }
+}
+
+@include X-Large{
+}
+@include Large {
+    .main{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@include Medium {
+    .main{
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+}
+@include Small {
+    .main{
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+}
+@include X-Small{
+    .main{
+        display: flex;
+        flex-direction: column;
     }
 }

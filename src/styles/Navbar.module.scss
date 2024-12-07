@@ -1,3 +1,5 @@
+@import "../styles/base//minxin";
+
 .nav{
     position: relative;
 
@@ -149,5 +151,31 @@
             top: -10px;
             right: -10px;
         }
+    }
+}
+
+@include X-Large{
+    .img{
+        width:100%;
+    }
+}
+@include Large {
+    .img{
+        width:100%;
+    }
+}
+@include Medium {
+    .img{
+        width:100%;
+    }
+}
+@include Small {
+    .img{
+        width:100%;
+    }
+}
+@include X-Small{
+    .img{
+        width:100%;
     }
 }

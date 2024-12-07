@@ -1,3 +1,5 @@
+@import "../styles/base//minxin";
+
 .main{
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -45,5 +47,36 @@
         .img{
             filter: grayscale(80%)
         }
+    }
+}
+
+@include X-Large{
+}
+@include Large {
+    .main{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@include Medium {
+    .main{
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+}
+@include Small {
+    .main{
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+}
+@include X-Small{
+    .main{
+        display: flex;
+        flex-direction: column;
     }
 }

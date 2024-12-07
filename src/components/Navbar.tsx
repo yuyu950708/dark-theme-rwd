@@ -9,7 +9,7 @@ export default function Navbar() {
     <>
       <nav className={style.nav}>
         <section>
-          <img src="https://www.w3schools.com/w3images/app2.jpg" alt="pic" />
+          <img src="https://www.w3schools.com/w3images/app2.jpg" alt="pic"  className={style.img}/>
         </section>
         <section className={style.view}>
           <div>
