@@ -1,86 +1,86 @@
-.main{
-    background-color: gray;
-    color: white;
-    height: 700px;
+.main {
+  background-color: gray;
+  color: white;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  .title {
     display: flex;
     flex-direction: column;
-    .title{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        .bigTitle{
-            font-size: 56px;
-            margin-top: 50px;
-        }
-        .text{
-            font-size: 24px;
-            margin: 25px;
-        }
+    align-items: center;
+    justify-content: center;
+    .bigTitle {
+      font-size: 56px;
+      margin-top: 50px;
     }
+    .text {
+      font-size: 24px;
+      margin: 25px;
+    }
+  }
 }
-.icons{
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
-    grid-template-rows:1fr 1fr 1fr ;
-    margin: 20px;
-    height: 100%;
-    margin-bottom: 50px;
-    .icon{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-size: 24px;
-        padding-bottom: 10px;
-        // margin: 20px;
-        .fast{
-            color: #ff9800;
-            font-size:48px;
-        }
-        .loved{
-            color: #f44336;
-            font-size:48px;
-        }
-        .clarity{
-            color: #d2be0e;
-            font-size:48px;
-        }
-        .power{
-            color: #4CAF50;
-            font-size:48px;
-        }
-        .sharp{
-            color: white;
-            font-size:48px;
-        }
-        .cloud{
-            color: #2196F3;
-            font-size:48px;
-        }
-        .global{
-            color: #ffc107;
-            font-size:48px;
-        }
-        .storage{
-            color:#00bcd4;
-            font-size:48px;;
-        }
-        .safe{
-            color:white;
-            font-size:48px;;
-        }
-        .stabile{
-            color: #ff9800;
-            font-size:48px;
-        }
-        .connected{
-            color: #757575;
-            font-size:48px;
-        }
-        .hd{
-            color:#e91e63;
-            font-size:48px;;
-        }
+.icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 20px;
+  height: 100%;
+  margin-bottom: 50px;
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    padding-bottom: 10px;
+    // margin: 20px;
+    .fast {
+      color: #ff9800;
+      font-size: 48px;
     }
+    .loved {
+      color: #f44336;
+      font-size: 48px;
+    }
+    .clarity {
+      color: #d2be0e;
+      font-size: 48px;
+    }
+    .power {
+      color: #4caf50;
+      font-size: 48px;
+    }
+    .sharp {
+      color: white;
+      font-size: 48px;
+    }
+    .cloud {
+      color: #2196f3;
+      font-size: 48px;
+    }
+    .global {
+      color: #ffc107;
+      font-size: 48px;
+    }
+    .storage {
+      color: #00bcd4;
+      font-size: 48px;
+    }
+    .safe {
+      color: white;
+      font-size: 48px;
+    }
+    .stabile {
+      color: #ff9800;
+      font-size: 48px;
+    }
+    .connected {
+      color: #757575;
+      font-size: 48px;
+    }
+    .hd {
+      color: #e91e63;
+      font-size: 48px;
+    }
+  }
 }

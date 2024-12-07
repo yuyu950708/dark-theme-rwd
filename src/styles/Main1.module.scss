@@ -1,92 +1,88 @@
-@import "../styles/base//minxin";
+@import '../styles/base//minxin';
 
-.main{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    background-color: white;
-    .sec1{
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        padding-left: 50px;
-        justify-content: center;
-        .sec1Title{
-            margin: 10px;
+.main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: white;
+  .sec1 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 50px;
+    justify-content: center;
+    .sec1Title {
+      margin: 10px;
 
-            .bigTitle{
-                font-size: 64px;
-                color: black;
-            }
+      .bigTitle {
+        font-size: 64px;
+        color: black;
+      }
 
-            .secTitle{
-                font-size: 48px;
-                color: #4CAF50;
-            }
-        }
-        .sec1Text{
-            margin: 16px;
-            line-height: 1.5;
-            gap:5px;
-            .text{
-                font-size: 16px;
-            }
-            .text1{
-                font-size: 18px;
-            }
-            .android{
-                font-size: 20px;
-                color: #4CAF50;
-            }
-            .apple{
-                font-size: 20px;
-            }
-            .window{
-                font-size: 20px;
-                color: #2196F3;
-            }
-        }
-        .downloadBtn{
-            border: 0;
-            padding: 10px 20px;
-            font-size: 16px;
-        }
-        .downloadBtn:hover{
-            background-color: #d4d1d1;
-        }
+      .secTitle {
+        font-size: 48px;
+        color: #4caf50;
+      }
     }
-
-    .sec2{
-        margin: 20px 50px 20px 100px;
+    .sec1Text {
+      margin: 16px;
+      line-height: 1.5;
+      gap: 5px;
+      .text {
+        font-size: 16px;
+      }
+      .text1 {
+        font-size: 18px;
+      }
+      .android {
+        font-size: 20px;
+        color: #4caf50;
+      }
+      .apple {
+        font-size: 20px;
+      }
+      .window {
+        font-size: 20px;
+        color: #2196f3;
+      }
     }
+    .downloadBtn {
+      border: 0;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    .downloadBtn:hover {
+      background-color: #d4d1d1;
+    }
+  }
+
+  .sec2 {
+    margin: 20px 50px 20px 100px;
+  }
 }
 
-@include X-Large{
+@include X-Large {
 }
 @include Large {
-    .main{
-        display: flex;
-        flex-direction: row;
-    }
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
 }
 @include Medium {
-    .main{
-    
-        display: flex;
-        flex-direction: column;
-    
-    }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
 }
 @include Small {
-    .main{
-    
-        display: flex;
-        flex-direction: column;
-    
-    }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
 }
-@include X-Small{
-    .main{
-        display: flex;
-        flex-direction: column;
-    }
+@include X-Small {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
 }

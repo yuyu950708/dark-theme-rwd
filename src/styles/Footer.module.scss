@@ -1,69 +1,69 @@
-.footer{
-    background-color: #f1f1f1;
-    height: 20vh;
+.footer {
+  background-color: #f1f1f1;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  .sec {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    .sec{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 5px;
-        .icon1{
-            margin:1.5px;
-            margin-bottom: 5px;
-            font-size: 25px;
-        }
-        .icon1:hover{
-            color: gray;
-        }
-        .icon2{
-            margin:1.5px;
-            margin-bottom: 5px;
-            font-size: 25px;
-        }
-        .icon2:hover{
-            color: gray;
-        }
-        .icon3{
-            margin:1.5px;
-            margin-bottom: 5px;
-            font-size: 25px;
-        }
-        .icon3:hover{
-            color: gray;
-        }
-        .icon4{
-            margin:1.5px;
-            margin-bottom: 5px;
-            font-size: 25px;
-        }
-        .icon4:hover{
-            color: gray;
-        }
-        .icon5{
-            margin:1.5px;
-            margin-bottom: 5px;
-            font-size: 25px;
-        }
-        .icon5:hover{
-            color: gray;
-        }
-        .icon6{
-            margin:1.5px;
-            margin-bottom: 5px;
-            font-size: 25px;
-        }
-        .icon6:hover{
-            color: gray;
-        }
-
-        .url{
-            border-bottom: 1px solid black;
-        }
-        .url:hover{
-            border-bottom: 1px solid rgb(78, 255, 47);
-            color: rgb(78, 255, 47);
-        }
+    gap: 5px;
+    .icon1 {
+      margin: 1.5px;
+      margin-bottom: 5px;
+      font-size: 25px;
     }
+    .icon1:hover {
+      color: gray;
+    }
+    .icon2 {
+      margin: 1.5px;
+      margin-bottom: 5px;
+      font-size: 25px;
+    }
+    .icon2:hover {
+      color: gray;
+    }
+    .icon3 {
+      margin: 1.5px;
+      margin-bottom: 5px;
+      font-size: 25px;
+    }
+    .icon3:hover {
+      color: gray;
+    }
+    .icon4 {
+      margin: 1.5px;
+      margin-bottom: 5px;
+      font-size: 25px;
+    }
+    .icon4:hover {
+      color: gray;
+    }
+    .icon5 {
+      margin: 1.5px;
+      margin-bottom: 5px;
+      font-size: 25px;
+    }
+    .icon5:hover {
+      color: gray;
+    }
+    .icon6 {
+      margin: 1.5px;
+      margin-bottom: 5px;
+      font-size: 25px;
+    }
+    .icon6:hover {
+      color: gray;
+    }
+
+    .url {
+      border-bottom: 1px solid black;
+    }
+    .url:hover {
+      border-bottom: 1px solid rgb(78, 255, 47);
+      color: rgb(78, 255, 47);
+    }
+  }
 }

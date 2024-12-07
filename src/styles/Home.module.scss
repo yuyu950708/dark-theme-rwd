@@ -1,85 +1,84 @@
-@import "./base.module.scss";
+@import './base.module.scss';
 
+.view {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-.view{
-    height: 100vh;
+.brightMode {
+  width: 20%;
+  height: 20vh;
+  border-radius: 15px;
+  background-color: $b-main-background-color;
+
+  .title {
+    color: $b-title-font-color;
+    padding-left: 10px;
+    padding-top: 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    justify-content: start;
+    font-size: 24px;
+    width: 100%;
+  }
+  .title2 {
+    color: $b-title-font-color;
+    padding-top: 10px;
+    display: flex;
+    padding-left: 10px;
+    justify-content: start;
+    font-size: 16px;
+    width: 100%;
+  }
 
-.brightMode{
-    width: 20%;
-    height: 20vh;
+  .btn {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    align-items: end;
+    justify-content: end;
+    padding-right: 20px;
+  }
+
+  .dayBtn {
+    background-color: $b-day-btn-bakcground-color;
+    color: $b-day-btn-font-color;
+    border: 0;
+    padding: 5px 20px;
     border-radius: 15px;
-    background-color: $b-main-background-color;
+    margin-right: 20px;
+  }
 
-    .title{
-        color: $b-title-font-color;
-        padding-left: 10px;
-        padding-top: 10px;
-        display: flex;
-        justify-content: start;
-        font-size: 24px;
-        width: 100%;
-    }
-    .title2{
-        color: $b-title-font-color;
-        padding-top: 10px;
-        display: flex;
-        padding-left: 10px;
-        justify-content: start;
-        font-size: 16px;
-        width: 100%;
-    }
-    
-    .btn{
-        display: flex;
-        width: 100%;
-        height: 50%;
-        align-items: end;
-        justify-content: end;
-        padding-right: 20px;
-    }
-
-    .dayBtn{
-        background-color: $b-day-btn-bakcground-color;
-        color: $b-day-btn-font-color;
-        border: 0;
-        padding: 5px 20px;
-        border-radius: 15px;
-        margin-right: 20px;
-    }
-    
-    .nightBtn{
-        background-color: $b-night-btn-bakcground-color;
-        color: $b-night-btn-font-color;
-        border: 0;
-        padding: 5px 20px;
-        border-radius: 15px;
-    }
+  .nightBtn {
+    background-color: $b-night-btn-bakcground-color;
+    color: $b-night-btn-font-color;
+    border: 0;
+    padding: 5px 20px;
+    border-radius: 15px;
+  }
 }
 
-.darkMode{
-    @extend.brightMode;
+.darkMode {
+  @extend.brightmode;
 
-    background-color: $d-main-background-color;
-    
-    .title{
-        color: $d-title-font-color;
-    }
+  background-color: $d-main-background-color;
 
-    .title2{
-        color: $d-title-font-color;
-    }
-    
-    .dayBtn{
-        background-color: $d-day-btn-bakcground-color;
-        color: $d-day-btn-font-color;
-    }
+  .title {
+    color: $d-title-font-color;
+  }
 
-    .nightBtn{
-        background-color: $d-night-btn-bakcground-color;
-        color: $d-night-btn-font-color;
-    }
+  .title2 {
+    color: $d-title-font-color;
+  }
+
+  .dayBtn {
+    background-color: $d-day-btn-bakcground-color;
+    color: $d-day-btn-font-color;
+  }
+
+  .nightBtn {
+    background-color: $d-night-btn-bakcground-color;
+    color: $d-night-btn-font-color;
+  }
 }

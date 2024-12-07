@@ -16,8 +16,12 @@ export default function DaarkMode() {
             </div>
           </section>
           <section className={style.btn}>
-            <button className={style.dayBtn} onClick={()=> setDarkMode(!darkMode)} >Day</button>
-            <button className={style.nightBtn} onClick={()=> setDarkMode(!darkMode)}>Night</button>
+            <button className={style.dayBtn} onClick={() => setDarkMode(!darkMode)}>
+              Day
+            </button>
+            <button className={style.nightBtn} onClick={() => setDarkMode(!darkMode)}>
+              Night
+            </button>
           </section>
         </main>
       </div>

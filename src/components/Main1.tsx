@@ -28,7 +28,8 @@ export default function Main1() {
             </button>
           </div>
           <div className={style.sec1Text}>
-            Available for  <FaAndroid className={style.android}/> <FaApple className={style.apple}/> <FaWindows  className={style.window}/>
+            Available for <FaAndroid className={style.android} />{' '}
+            <FaApple className={style.apple} /> <FaWindows className={style.window} />
           </div>
         </section>
         <section className={style.sec2}>
